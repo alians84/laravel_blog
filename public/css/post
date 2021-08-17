@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Все посты блога</title>
+    <link href="http://localhost/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script src="http://localhost/js/app.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
+        <!-- Логотип и кнопка «Гамбургер» -->
+        <a class="navbar-brand" href="#">Панель управления</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbar-blog" aria-controls="navbar-blog"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Основная часть меню (может содержать ссылки, формы и прочее) -->
+        <div class="collapse navbar-collapse" id="navbar-blog">
+            <!-- Этот блок расположен слева -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/admin/post">Посты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Комментарии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Категории</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Теги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Пользователи</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Страницы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Корзина</a>
+                </li>
+            </ul>
+            <!-- Этот блок расположен справа -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/auth/logout">Выйти</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col">
+            
+            
+                <h1>Все посты блога</h1>
+            <ul>
+                            <li>
+                    <a href="http://localhost/admin/post/category/1">
+                        HERE.&#039; &#039;But then,&#039; thought she, &#039;what would.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/2">
+                        No room!&#039; they cried out when they.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/3">
+                        Alice)--&#039;and perhaps you haven&#039;t found it.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/4">
+                        Dormouse,&#039; thought Alice; &#039;I might as well go.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/5">
+                        King put on her toes when they passed too.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/6">
+                        Cat. &#039;Do you mean &quot;purpose&quot;?&#039; said Alice.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/7">
+                        The Panther took pie-crust, and gravy, and.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/8">
+                        Queen. &#039;I never thought about it,&#039; said the.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/9">
+                        The Queen turned crimson with fury, and, after.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/10">
+                        Duchess! The Duchess! Oh my fur and.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/11">
+                        Alice to herself, being rather proud of.
+                    </a>
+                </li>
+                            <li>
+                    <a href="http://localhost/admin/post/category/12">
+                        Alice think it would be the right word) &#039;--but.
+                    </a>
+                </li>
+                    </ul>
+                <table class="table table-bordered">
+            <tr>
+                <th width="10%">Дата</th>
+                <th width="40%">Наименование</th>
+                <th width="20%">Автор публикации</th>
+                <th width="20%">Разрешил публикацию</th>
+                <th><i class="fas fa-eye"></i></th>
+                <th><i class="fas fa-toggle-on"></i></th>
+                <th><i class="fas fa-edit"></i></th>
+                <th><i class="fas fa-trash-alt"></i></th>
+            </tr>
+                            <tr>
+                    <td>2021-07-16 13:21:40</td>
+                    <td>I&#039;ve said as yet.&#039; &#039;A cheap sort of knot, and then Alice dodged behind a great hurry; &#039;and their.</td>
+                    <td>Emily Schultz</td>
+                    <td>
+                                            </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/38"
+                           title="Предварительный просмотр">
+                            <i class="far fa-eye"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                                            <a href="http://localhost/admin/post/disable/38"
+                               title="Запретить публикацию">
+                                <i class="far fa-toggle-on"></i>
+                            </a>
+                                                                    </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/38/edit">
+                            <i class="far fa-edit"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                <form action="http://localhost/admin/post/38"
+                              method="post" onsubmit="return confirm('Удалить этот пост?')">
+                            <input type="hidden" name="_token" value="NVp3WilFQGOGjmcqWPDe55ghlNkIGHhVEJIsEpqC">                            <input type="hidden" name="_method" value="DELETE">                            <button type="submit" class="m-0 p-0 border-0 bg-transparent">
+                                <i class="far fa-trash-alt text-danger"></i>
+                            </button>
+                        </form>
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>2021-07-16 13:21:40</td>
+                    <td>Caterpillar. Here was another long passage, and the poor little feet, I wonder what they.</td>
+                    <td>Mr. Marco Breitenberg Jr.</td>
+                    <td>
+                                            </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/39"
+                           title="Предварительный просмотр">
+                            <i class="far fa-eye"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                                            <a href="http://localhost/admin/post/disable/39"
+                               title="Запретить публикацию">
+                                <i class="far fa-toggle-on"></i>
+                            </a>
+                                                                    </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/39/edit">
+                            <i class="far fa-edit"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                <form action="http://localhost/admin/post/39"
+                              method="post" onsubmit="return confirm('Удалить этот пост?')">
+                            <input type="hidden" name="_token" value="NVp3WilFQGOGjmcqWPDe55ghlNkIGHhVEJIsEpqC">                            <input type="hidden" name="_method" value="DELETE">                            <button type="submit" class="m-0 p-0 border-0 bg-transparent">
+                                <i class="far fa-trash-alt text-danger"></i>
+                            </button>
+                        </form>
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>2021-07-16 13:21:40</td>
+                    <td>The Mouse looked at her as hard as she came rather late, and the shrill voice of.</td>
+                    <td>Dusty Braun</td>
+                    <td>
+                                            </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/40"
+                           title="Предварительный просмотр">
+                            <i class="far fa-eye"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                                            <a href="http://localhost/admin/post/disable/40"
+                               title="Запретить публикацию">
+                                <i class="far fa-toggle-on"></i>
+                            </a>
+                                                                    </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/40/edit">
+                            <i class="far fa-edit"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                <form action="http://localhost/admin/post/40"
+                              method="post" onsubmit="return confirm('Удалить этот пост?')">
+                            <input type="hidden" name="_token" value="NVp3WilFQGOGjmcqWPDe55ghlNkIGHhVEJIsEpqC">                            <input type="hidden" name="_method" value="DELETE">                            <button type="submit" class="m-0 p-0 border-0 bg-transparent">
+                                <i class="far fa-trash-alt text-danger"></i>
+                            </button>
+                        </form>
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>2021-07-16 13:21:40</td>
+                    <td>Queen merely remarking as it spoke (it was exactly three inches high). &#039;But I&#039;m not looking.</td>
+                    <td>Emily Schultz</td>
+                    <td>
+                                            </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/41"
+                           title="Предварительный просмотр">
+                            <i class="far fa-eye"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                                            <a href="http://localhost/admin/post/disable/41"
+                               title="Запретить публикацию">
+                                <i class="far fa-toggle-on"></i>
+                            </a>
+                                                                    </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/41/edit">
+                            <i class="far fa-edit"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                <form action="http://localhost/admin/post/41"
+                              method="post" onsubmit="return confirm('Удалить этот пост?')">
+                            <input type="hidden" name="_token" value="NVp3WilFQGOGjmcqWPDe55ghlNkIGHhVEJIsEpqC">                            <input type="hidden" name="_method" value="DELETE">                            <button type="submit" class="m-0 p-0 border-0 bg-transparent">
+                                <i class="far fa-trash-alt text-danger"></i>
+                            </button>
+                        </form>
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>2021-07-16 13:21:40</td>
+                    <td>Queen. &#039;Never!&#039; said the Footman. &#039;That&#039;s the first question, you know.&#039; &#039;I DON&#039;T.</td>
+                    <td>Dee Barrows</td>
+                    <td>
+                                            </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/44"
+                           title="Предварительный просмотр">
+                            <i class="far fa-eye"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                                            <a href="http://localhost/admin/post/disable/44"
+                               title="Запретить публикацию">
+                                <i class="far fa-toggle-on"></i>
+                            </a>
+                                                                    </td>
+                    <td>
+                                                <a href="http://localhost/admin/post/44/edit">
+                            <i class="far fa-edit"></i>
+                        </a>
+                                            </td>
+                    <td>
+                                                <form action="http://localhost/admin/post/44"
+                              method="post" onsubmit="return confirm('Удалить этот пост?')">
+                            <input type="hidden" name="_token" value="NVp3WilFQGOGjmcqWPDe55ghlNkIGHhVEJIsEpqC">                            <input type="hidden" name="_method" value="DELETE">                            <button type="submit" class="m-0 p-0 border-0 bg-transparent">
+                                <i class="far fa-trash-alt text-danger"></i>
+                            </button>
+                        </form>
+                                            </td>
+                </tr>
+                    </table>
+        <nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost/admin/post?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                    <span class="font-medium">1</span>
+                    to
+                    <span class="font-medium">5</span>
+                    of
+                    <span class="font-medium">48</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost/admin/post?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=3" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 3">
+                                        3
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=4" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 4">
+                                        4
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=5" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 5">
+                                        5
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=6" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 6">
+                                        6
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=7" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 7">
+                                        7
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=8" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 8">
+                                        8
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=9" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 9">
+                                        9
+                                    </a>
+                                                                                                                                <a href="http://localhost/admin/post?page=10" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 10">
+                                        10
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost/admin/post?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+            </div>
+    </div>
+</div>
+</body>
+</html>
